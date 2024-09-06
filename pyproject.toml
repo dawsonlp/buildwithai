@@ -8,6 +8,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jira = "^3.8.0"
+openai = "^1.43.1"
+python-dotenv = "^1.0.1"
+gitpython = "^3.1.43"
+langchain = "^0.2.16"
 
 
 [tool.poetry.group.dev.dependencies]
