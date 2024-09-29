@@ -1,0 +1,41 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: '24.8.0'  # Always use the latest version
+    hooks:
+      - id: black
+
+  - repo: https://github.com/PyCQA/isort
+    rev: '5.13.2'  # Always use the latest version
+    hooks:
+      - id: isort
+        args: ["--profile=black"]
+
+  - repo: https://github.com/pycqa/flake8
+    rev: '7.1.1'  # Always use the latest version
+    hooks:
+      - id: flake8
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v1.11.2'
+    hooks:
+      # Run mypy on src directory
+      - id: mypy
+        name: mypy (src)
+        entry: bash -c 'PYTHONPATH=src mypy src'
+        pass_filenames: false
+      # Run mypy on test directory
+      - id: mypy
+        name: mypy (test)
+        entry: bash -c 'PYTHONPATH=src mypy test'
+        pass_filenames: false
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: '1.7.9'  # Always use the latest version
+    hooks:
+      - id: bandit
+
+  - repo: https://github.com/PyCQA/docformatter
+    rev: 'v1.7.5'  # Always use the latest version
+    hooks:
+      - id: docformatter
+  

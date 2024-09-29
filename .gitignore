@@ -1,0 +1,176 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# pyenv
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+.vscode/
+
+# Visual Studio Code
+.vscode/
+
+# VS Code workspace settings
+.code-workspace
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm and VS Code specific files
+*.sublime-project
+*.sublime-workspace
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+*.idea/vcs.xml
+*.idea/jsLibraryMappings.xml
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.BIN/
+
+# Python package files
+*.lock
+poetry.lock
+Pipfile.lock
+
+# Environment variables
+.env
+.venv
+
+# SQLite database files
+*.sqlite3
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Local .env files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# pytest
+.cache/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+​# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytype
+.pytype/
+
+# Celery stuff:
+celerybeat-schedule.*
+celerybeat.pid
+
+# SageMath parsed files:
+*.sage.py
+
+# Environments
+.env/
+.env.*
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# PyBuilder
+target/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Cython debug symbols
+cython_debug/
+
+# Poetry
+poetry.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local configuration file
+config.yaml
