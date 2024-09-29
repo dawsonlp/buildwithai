@@ -8,11 +8,17 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pydantic = "^2.9.0"
 jira = "^3.8.0"
 openai = "^1.43.1"
 python-dotenv = "^1.0.1"
 gitpython = "^3.1.43"
-langchain = "^0.2.16"
+langchain = "^0.3.1"
+langchain_community = "^0.3.1"
+langchain-openai = "^0.3.0"
+fire = "^0.6.0"
+tenacity = "^8.4.0"
+atlassian-python-api = "^3.41.16"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -23,6 +29,7 @@ mypy = "^1.11.2"
 bandit = "^1.7.9"
 docformatter = "^1.7.5"
 pre-commit = "^3.8.0"
+jupyterlab = "^4.2.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -60,6 +67,7 @@ lines_after_imports = 2
 
 [tool.flake8]
 max-line-length = 88
+ignore = ["W291"]
 
 
 [tool.mypy]
